@@ -1,5 +1,10 @@
+import { useBlog } from "../hooks";
+
 const Blog = () => {
-  return "Blog page";
+  const { loading, blog } = useBlog();
+  if (loading) {
+    return <div>loading...</div>;
+  }
 };
 
 export default Blog;
