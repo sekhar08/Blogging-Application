@@ -1,4 +1,4 @@
- const BACKEND_URL = 'http://localhost:8787'
+ const BACKEND_URL = 'https://week-13-offline.sekhar-gandrotula.workers.dev'
 
 
 
